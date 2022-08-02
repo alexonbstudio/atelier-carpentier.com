@@ -1,0 +1,245 @@
+{
+    "name": "alexonbstudio/at2",
+    "type": "project",
+    "version": "2.2.0",
+    "description": "Website Project WP | No DB requirement",
+    "keywords": [
+		"website project", 
+		"showcase site", 
+		"seo", 
+		"less php",
+		"alexonbstudio",
+		"WP",
+		"PHP",
+		"json",
+		"minify HTML",
+		"generator sitemap",
+		"json-ld",
+		"seo",
+		"apache",
+		"référencement naturel",
+		"sans basse de donnée",
+		"Scan Ssl",
+		"Scan Ssllabs",
+		"composer",
+		"recaptcha",
+		"php",
+		"site vitrine",
+		"création site internet",
+		"nginx",
+		"caddy",
+		"bootstrap",
+		"without databasse"
+	], 
+    "config": {
+        "optimize-autoloader": true,
+		"archive-format": "zip",
+        "platform": {
+            "php": "7.4"
+        },
+        "vendor-dir": "libs"
+    },
+    "homepage": "https://github.com/alexonbstudio/website-project",
+    "license": "GPL-3.0-only",
+	"support": {
+		"source": "https://github.com/alexonbstudio/website-project",
+		"issues": "https://github.com/alexonbstudio/website-project/issues"
+	},
+    "authors": [
+        {
+            "name": "Alexon Balangue",
+            "homepage": "https://alexonb.studio",
+            "role": "Developer"
+        },
+		{
+            "name": "Joshua Gigg",
+            "homepage": "https://giggsey.com",
+            "role": "contributor"
+        },
+		{
+            "name": "Prisacari Dmitrii",
+            "homepage": "https://github.com/icamys",
+            "role": "contributor"
+        },
+		{
+            "name": "PHPmailer",
+            "homepage": "https://github.com/synchro",
+            "role": "contributor"
+        },
+		{
+            "name": "Joomla",
+            "homepage": "https://github.com/joomla-cms",
+            "role": "contributor"
+        },
+		{
+            "name": "Google",
+            "homepage": "https://github.com/google",
+            "role": "contributor"
+        },
+		{
+            "name": "Visualappeal",
+            "homepage": "https://github.com/visualappeal",
+            "role": "contributor"
+        },
+		{
+            "name": "Matthias Mullie",
+            "homepage": "http://www.mullie.eu",
+            "role": "contributor"
+        }
+    ],
+    "funding": [
+        {
+            "url": "https://patreon.com/alexonbstudio",
+            "type": "patreon"
+        },
+		{
+            "url": "https://github.com/alexonbstudio",
+            "type": "github"
+        },
+		{
+            "url": "https://alexonb.studio/donation",
+            "type": "custom"
+        }
+    ],
+	"autoload": {
+		"classmap": [
+			"libs/visualappeal/php-ssllabs-api/src/SslLabs.php", 
+			"libs/giggsey/locale/src/Locale.php", 
+			"libs/giggsey/libphonenumber-for-php/src/", 
+			"libs/phpmailer/phpmailer/src/", 
+			"libs/joomla/utilities/src/IpHelper.php", 
+			"libs/icamys/php-sitemap-generator/src/SitemapGenerator.php", 
+			"libs/google/recaptcha/src/ReCaptcha/"
+		],		
+        "exclude-from-classmap": [
+			"/libs/visualappeal/php-ssllabs-api/data/",
+			"/libs/giggsey/libphonenumber-for-php/src/tests/",
+			"/libs/google/recaptcha/src/autoload.php", 
+			"/libs/google/recaptcha/exemples/",
+			"/libs/google/recaptcha/tests/",
+			"/libs/giggsey/libphonenumber-for-php/src/data/",
+			"/libs/giggsey/libphonenumber-for-php/src/carrier/data/",
+			"/libs/giggsey/libphonenumber-for-php/src/geocoding/data/",
+			"/libs/giggsey/libphonenumber-for-php/src/timezone/data/",
+			"/libs/joomla/string/",
+			"/libs/joomla/utilities/src/ArrayHelper.php"
+		]
+    },
+	"minimum-stability": "stable",
+    "require": {
+        "php": ">=7.4",
+		"ext-curl": "*",
+		"ext-json": "*",
+		"ext-mbstring": "*",
+        "phpmailer/phpmailer": "^6.6",
+        "symfony/polyfill-mbstring": "^1.18",
+        "giggsey/libphonenumber-for-php": "^8.12",
+        "icamys/php-sitemap-generator": "^4.4",
+        "joomla/utilities": "^1.6",
+		"google/recaptcha": "^1.2",
+        "visualappeal/php-ssllabs-api": "^1.0",
+        "giggsey/locale": "^2.2",
+        "matthiasmullie/minify": "^1.3"
+    },
+	"archive": {
+		"name": "Website-Project-WP-V2.2.0-alexonbstudio",
+		"exclude": [
+			"libs/symfony/polyfill-mbstring/composer.json",
+			"libs/symfony/polyfill-mbstring/LICENSE",
+			"libs/symfony/polyfill-mbstring/README.md",
+			"libs/giggsey/libphonenumber-for-php/METADATA-VERSION.txt",
+			"libs/giggsey/libphonenumber-for-php/LICENSE",
+			"libs/visualappeal/php-ssllabs-api/tests/",
+			"libs/visualappeal/php-ssllabs-api/.gitignore",
+			"libs/visualappeal/php-ssllabs-api/composer.json",
+			"libs/visualappeal/php-ssllabs-api/CONTRIBUTORS",
+			"libs/visualappeal/php-ssllabs-api/LICENSE",
+			"libs/visualappeal/php-ssllabs-api/phpunit.xml",
+			"libs/visualappeal/php-ssllabs-api/README.md",
+			"libs/google/recaptcha/.github/",
+			"libs/google/recaptcha/src/autoload.php",
+			"libs/google/recaptcha/examples/",
+			"libs/google/recaptcha/tests/",
+			"libs/google/recaptcha/.gitignore",
+			"libs/google/recaptcha/.travis.yml",
+			"libs/google/recaptcha/ARCHITECTURE.md",
+			"libs/google/recaptcha/CONTRIBUTING.md",
+			"libs/google/recaptcha/LICENSE",
+			"libs/google/recaptcha/README.md",
+			"libs/google/recaptcha/app.yaml",
+			"libs/google/recaptcha/phpunit.xml.dist",
+			"libs/google/recaptcha/composer.json",
+			"libs/joomla/string/",
+			"libs/joomla/utilities/.github/",
+			"libs/joomla/utilities/src/ArrayHelper.php",
+			"libs/joomla/utilities/Tests/",
+			"libs/joomla/utilities/LICENSE",
+			"libs/joomla/utilities/phpunit.xml.dist",
+			"libs/joomla/utilities/composer.json",
+			"libs/joomla/utilities/README.md",
+			"libs/composer/LICENSE",
+			"libs/icamys/php-sitemap-generator/test/",
+			"libs/icamys/php-sitemap-generator/.editorconfig",
+			"libs/icamys/php-sitemap-generator/.gitignore",
+			"libs/icamys/php-sitemap-generator/.travis.yml",
+			"libs/icamys/php-sitemap-generator/composer.json",
+			"libs/icamys/php-sitemap-generator/composer.lock",
+			"libs/icamys/php-sitemap-generator/phpunit.xml",
+			"libs/icamys/php-sitemap-generator/README.md",
+			"libs/giggsey/libphonenumber-for-php/build/",
+			"libs/giggsey/libphonenumber-for-php/docs/",
+			"libs/giggsey/libphonenumber-for-php/tests/",
+			"libs/giggsey/libphonenumber-for-php/.github/",
+			"libs/giggsey/libphonenumber-for-php/composer.json",
+			"libs/giggsey/libphonenumber-for-php/.editorconfig",
+			"libs/giggsey/libphonenumber-for-php/.gitattributes",
+			"libs/giggsey/libphonenumber-for-php/.gitignore",
+			"libs/giggsey/libphonenumber-for-php/.styleci.yml",
+			"libs/giggsey/libphonenumber-for-php/.travis.yml",
+			"libs/giggsey/libphonenumber-for-php/LICENSE",
+			"libs/giggsey/libphonenumber-for-php/build.xml",
+			"libs/giggsey/libphonenumber-for-php/METADATA-VERSION.txt",
+			"libs/giggsey/libphonenumber-for-php/libphonenumber-for-php.spec",
+			"libs/giggsey/libphonenumber-for-php/phpunit.xml.dist",
+			"libs/giggsey/libphonenumber-for-php/README.md",
+			"libs/giggsey/local/build/",
+			"libs/giggsey/local/tests/",
+			"libs/giggsey/local/.gitattributes",
+			"libs/giggsey/local/.gitignore",
+			"libs/giggsey/local/.styleci.yml",
+			"libs/giggsey/local/CLDR-VERSION.txt",
+			"libs/giggsey/local/.travis.yml",
+			"libs/giggsey/local/README.md",
+			"libs/giggsey/local/composer.json",
+			"libs/giggsey/local/build.xml",
+			"libs/giggsey/local/phpunit.xml.dist",
+			"libs/icamys/php-sitemap-generator/test/",
+			"libs/icamys/php-sitemap-generator/.editorconfig",
+			"libs/icamys/php-sitemap-generator/.gitignore",
+			"libs/icamys/php-sitemap-generator/.travis.yml",
+			"libs/icamys/php-sitemap-generator/composer.json",
+			"libs/icamys/php-sitemap-generator/composer.lock",
+			"libs/icamys/php-sitemap-generator/phpunit.xml",
+			"libs/icamys/php-sitemap-generator/README.md",
+			"libs/phpmailer/COMMITMENT",
+			"libs/phpmailer/composer.json",
+			"libs/phpmailer/LICENSE",
+			"libs/phpmailer/README.md",
+			"libs/phpmailer/SECURITY.md",
+			"libs/phpmailer/VERSION",
+			".github/",
+			"apache/",
+			"caddy/",
+			"docs/",
+			"nginx/",
+			"testiing/",
+			"docker-compose.yml",
+			"FUNDING.yml",
+			"composer.lock",
+			"SECURITY.md"
+		]
+	},
+	"suggest": {
+		"symfony/polyfill-mbstring": "To support UTF-8 if the Mbstring PHP extension is not enabled (^1.2)"
+	}
+}

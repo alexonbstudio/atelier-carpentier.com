@@ -1,0 +1,43 @@
+.Durgences {
+    display: block;
+    width: 440px;
+    height: 100px;
+    position: fixed;
+    bottom: 200px;
+    right: -340px;
+    box-shadow: 1px 4px 10px rgba(0,0,0,0.5);
+    background: #fff;
+    border: 1px solid #fff;
+    z-index: 10;
+}
+.Durgences-icon {
+    width: 100px;
+    height: 100px;
+    background: url("../../../assets/images/depannage-urgence.png") no-repeat #EC2127;
+    cursor: pointer;
+    float: left;
+}
+.Durgences .Dtext {
+    font-size: 18pt;
+}
+.Durgences .Dnumber, .Durgences .Dtext {
+    height: 30px;
+    line-height: 40px;
+    width: 330px;
+    font-size: 24pt;
+    font-weight: bold;
+    float: left;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+.bg-clbleu { background-color: #d3def2 !important; }
+.bg-servicesbleu { background-color: #42a4ff !important; }
+.text-color-green {color: #13c703; }
+.title-color-bleu {color: #3f8cf6; }
+
+
+
+
+
