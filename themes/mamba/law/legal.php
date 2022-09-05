@@ -84,7 +84,7 @@
 			</p>
            <h3><?php echo $law['legal']['content']['software']['title']; ?></h3>
 		   <p>
-			<strong><?php echo $law['legal']['content']['software']['title']; ?></strong> <?php echo $law['legal']['content']['software']['wp']; ?> - CC-BY-SA - Alexon Balangue<br />
+			<strong>Propulsé par <a href="https://webjet.cloud">www.WebJet.Cloud</a> Open-Source PHP</strong> <?php echo $law['legal']['content']['software']['wp']; ?> - CC-BY-SA - Alexon Balangue<br />
 			License: GNU GPL V3.0
 		   </p>
 		   
