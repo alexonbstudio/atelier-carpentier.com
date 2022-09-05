@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "83ad2729414fc7fc92b36e557a96ed66",
+    "content-hash": "120bb480919b0ab87b0bfc114ade1362",
     "packages": [
         {
             "name": "giggsey/libphonenumber-for-php",
-            "version": "8.12.50",
+            "version": "8.12.54",
             "source": {
                 "type": "git",
                 "url": "https://github.com/giggsey/libphonenumber-for-php.git",
-                "reference": "526c4b7f6d5e173770d8645e76340d7eb25dc348"
+                "reference": "d0bad134ca7206d36784c2c5ec531ba4513efde7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/giggsey/libphonenumber-for-php/zipball/526c4b7f6d5e173770d8645e76340d7eb25dc348",
-                "reference": "526c4b7f6d5e173770d8645e76340d7eb25dc348",
+                "url": "https://api.github.com/repos/giggsey/libphonenumber-for-php/zipball/d0bad134ca7206d36784c2c5ec531ba4513efde7",
+                "reference": "d0bad134ca7206d36784c2c5ec531ba4513efde7",
                 "shasum": ""
             },
             "require": {
@@ -77,7 +77,7 @@
                 "issues": "https://github.com/giggsey/libphonenumber-for-php/issues",
                 "source": "https://github.com/giggsey/libphonenumber-for-php"
             },
-            "time": "2022-06-09T14:55:00+00:00"
+            "time": "2022-08-22T06:43:42+00:00"
         },
         {
             "name": "giggsey/locale",
@@ -249,29 +249,29 @@
         },
         {
             "name": "joomla/string",
-            "version": "2.0.0",
+            "version": "2.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/joomla-framework/string.git",
-                "reference": "778682c04a1909323da6a453a5b3030d7a7a2fa9"
+                "reference": "bcdb8d45ad3953bf3cfc2b9577288823cab381b9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/joomla-framework/string/zipball/778682c04a1909323da6a453a5b3030d7a7a2fa9",
-                "reference": "778682c04a1909323da6a453a5b3030d7a7a2fa9",
+                "url": "https://api.github.com/repos/joomla-framework/string/zipball/bcdb8d45ad3953bf3cfc2b9577288823cab381b9",
+                "reference": "bcdb8d45ad3953bf3cfc2b9577288823cab381b9",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.2.5",
+                "php": "^7.2.5|~8.0.0|~8.1.0",
                 "symfony/deprecation-contracts": "^2.1"
             },
             "conflict": {
                 "doctrine/inflector": "<1.2"
             },
             "require-dev": {
-                "doctrine/inflector": "1.2",
+                "doctrine/inflector": "^1.2",
                 "joomla/coding-standards": "^3.0@dev",
-                "joomla/test": "^2.0",
+                "joomla/test": "^2.0.1",
                 "phpunit/phpunit": "^8.5|^9.0"
             },
             "suggest": {
@@ -319,7 +319,7 @@
             ],
             "support": {
                 "issues": "https://github.com/joomla-framework/string/issues",
-                "source": "https://github.com/joomla-framework/string/tree/2.0.0"
+                "source": "https://github.com/joomla-framework/string/tree/2.0.1"
             },
             "funding": [
                 {
@@ -331,34 +331,34 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-08-10T18:57:12+00:00"
+            "time": "2022-08-15T12:47:17+00:00"
         },
         {
             "name": "joomla/utilities",
-            "version": "1.6.2",
+            "version": "2.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/joomla-framework/utilities.git",
-                "reference": "9f7d9fda537ca005f7467de68f92506d48f348f5"
+                "reference": "ab1660fd22184700306b932c39410ba955dc82e1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/joomla-framework/utilities/zipball/9f7d9fda537ca005f7467de68f92506d48f348f5",
-                "reference": "9f7d9fda537ca005f7467de68f92506d48f348f5",
+                "url": "https://api.github.com/repos/joomla-framework/utilities/zipball/ab1660fd22184700306b932c39410ba955dc82e1",
+                "reference": "ab1660fd22184700306b932c39410ba955dc82e1",
                 "shasum": ""
             },
             "require": {
-                "joomla/string": "~1.3|~2.0",
-                "php": "^5.3.10|~7.0|^8.0"
+                "joomla/string": "^2.0",
+                "php": "^7.2.5|~8.0.0|~8.1.0"
             },
             "require-dev": {
-                "joomla/coding-standards": "~2.0@alpha",
-                "phpunit/phpunit": "^4.8.35|^5.4.3|~6.0|^7.0|^8.0"
+                "joomla/coding-standards": "^3.0@dev",
+                "phpunit/phpunit": "^8.5|^9.0"
             },
             "type": "joomla-package",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.x-dev"
+                    "dev-2.0-dev": "2.0-dev"
                 }
             },
             "autoload": {
@@ -379,7 +379,7 @@
             ],
             "support": {
                 "issues": "https://github.com/joomla-framework/utilities/issues",
-                "source": "https://github.com/joomla-framework/utilities/tree/1.6.2"
+                "source": "https://github.com/joomla-framework/utilities/tree/2.0.1"
             },
             "funding": [
                 {
@@ -391,20 +391,20 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-06-02T21:39:39+00:00"
+            "time": "2022-08-15T11:29:34+00:00"
         },
         {
             "name": "matthiasmullie/minify",
-            "version": "1.3.68",
+            "version": "1.3.69",
             "source": {
                 "type": "git",
                 "url": "https://github.com/matthiasmullie/minify.git",
-                "reference": "c00fb02f71b2ef0a5f53fe18c5a8b9aa30f48297"
+                "reference": "a61c949cccd086808063611ef9698eabe42ef22f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/matthiasmullie/minify/zipball/c00fb02f71b2ef0a5f53fe18c5a8b9aa30f48297",
-                "reference": "c00fb02f71b2ef0a5f53fe18c5a8b9aa30f48297",
+                "url": "https://api.github.com/repos/matthiasmullie/minify/zipball/a61c949cccd086808063611ef9698eabe42ef22f",
+                "reference": "a61c949cccd086808063611ef9698eabe42ef22f",
                 "shasum": ""
             },
             "require": {
@@ -453,7 +453,7 @@
             ],
             "support": {
                 "issues": "https://github.com/matthiasmullie/minify/issues",
-                "source": "https://github.com/matthiasmullie/minify/tree/1.3.68"
+                "source": "https://github.com/matthiasmullie/minify/tree/1.3.69"
             },
             "funding": [
                 {
@@ -461,7 +461,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-04-19T08:28:56+00:00"
+            "time": "2022-08-01T09:00:18+00:00"
         },
         {
             "name": "matthiasmullie/path-converter",
@@ -518,16 +518,16 @@
         },
         {
             "name": "phpmailer/phpmailer",
-            "version": "v6.6.3",
+            "version": "v6.6.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHPMailer/PHPMailer.git",
-                "reference": "9400f305a898f194caff5521f64e5dfa926626f3"
+                "reference": "a94fdebaea6bd17f51be0c2373ab80d3d681269b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHPMailer/PHPMailer/zipball/9400f305a898f194caff5521f64e5dfa926626f3",
-                "reference": "9400f305a898f194caff5521f64e5dfa926626f3",
+                "url": "https://api.github.com/repos/PHPMailer/PHPMailer/zipball/a94fdebaea6bd17f51be0c2373ab80d3d681269b",
+                "reference": "a94fdebaea6bd17f51be0c2373ab80d3d681269b",
                 "shasum": ""
             },
             "require": {
@@ -584,7 +584,7 @@
             "description": "PHPMailer is a full-featured email creation and transfer class for PHP",
             "support": {
                 "issues": "https://github.com/PHPMailer/PHPMailer/issues",
-                "source": "https://github.com/PHPMailer/PHPMailer/tree/v6.6.3"
+                "source": "https://github.com/PHPMailer/PHPMailer/tree/v6.6.4"
             },
             "funding": [
                 {
@@ -592,11 +592,11 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-06-20T09:21:02+00:00"
+            "time": "2022-08-22T09:22:00+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",
-            "version": "v2.5.1",
+            "version": "v2.5.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/deprecation-contracts.git",
@@ -643,7 +643,7 @@
             "description": "A generic function and convention to trigger deprecation notices",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/deprecation-contracts/tree/v2.5.1"
+                "source": "https://github.com/symfony/deprecation-contracts/tree/v2.5.2"
             },
             "funding": [
                 {
