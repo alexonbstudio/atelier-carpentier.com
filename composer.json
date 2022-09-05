@@ -1,7 +1,7 @@
 {
     "name": "alexonbstudio/at2",
     "type": "project",
-    "version": "2.2.0",
+    "version": "2.2.2",
     "description": "Website Project WP | No DB requirement",
     "keywords": [
 		"website project", 
@@ -135,14 +135,14 @@
         "symfony/polyfill-mbstring": "^1.18",
         "giggsey/libphonenumber-for-php": "^8.12",
         "icamys/php-sitemap-generator": "^4.4",
-        "joomla/utilities": "^1.6",
+        "joomla/utilities": "~2.0",
 		"google/recaptcha": "^1.2",
         "visualappeal/php-ssllabs-api": "^1.0",
         "giggsey/locale": "^2.2",
         "matthiasmullie/minify": "^1.3"
     },
 	"archive": {
-		"name": "Website-Project-WP-V2.2.0-alexonbstudio",
+		"name": "ats2",
 		"exclude": [
 			"libs/symfony/polyfill-mbstring/composer.json",
 			"libs/symfony/polyfill-mbstring/LICENSE",
